@@ -1,0 +1,11 @@
+
+
+speaker "dialogue here"
+speaker "dialogue Line 1{c}Line 2{a}Line 3"
+
+{c}   = clear
+{a}   = append
+{wc n} = wait clear
+{wa n}  = wait append
+
+speaker as characterName at 1;1 [0:Angle, 1: Happy] itd

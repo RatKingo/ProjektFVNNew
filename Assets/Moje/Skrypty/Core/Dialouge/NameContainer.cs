@@ -1,18 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
-public class NameContainer : MonoBehaviour
+namespace DIALOUGE
 {
-    // Start is called before the first frame update
-    void Start()
+[System.Serializable]
+
+public class NameContainer 
+{
+    [SerializeField] private GameObject root;
+    [SerializeField] private TextMeshProUGUI nameText;
+
+    public void Show(string nameToShow = "")
     {
-        
+        root.SetActive(true);
+
+        if (nameToShow != string.Empty)
+            nameText.text = nameToShow;
     }
 
-    // Update is called once per frame
-    void Update()
+   
+    public void Hide()
     {
+        root.SetActive(false);
         
     }
+}
 }
