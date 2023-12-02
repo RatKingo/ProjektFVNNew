@@ -22,7 +22,7 @@ public class DL_SPEAKER_DATA
 
     public DL_SPEAKER_DATA(string rawSpeaker)
     {
-        string pattern = @$"{NAMECAST_ID} | {POSITIONCAST_ID} | {EXPRESSIONCAST_ID.Insert(EXPRESSIONCAST_ID.Length - 1, @"\")}";
+        string pattern = @$"{NAMECAST_ID}|{POSITIONCAST_ID}|{EXPRESSIONCAST_ID.Insert(EXPRESSIONCAST_ID.Length - 1, @"\")}";
         MatchCollection matches = Regex.Matches(rawSpeaker, pattern);
 
         castName = "";

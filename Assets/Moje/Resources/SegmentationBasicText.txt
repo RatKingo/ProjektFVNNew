@@ -4,5 +4,5 @@ Milka as ??? at 1:0 [0:Angle1, 1:Happy] "Your bones need to be strong! {a} And m
 
 Milka as ??? at 0.5:0.5 [0:Angle1, 1:Happy] "Latte might be perfect for you, if you want to taste more milk than coffee. {c} I whole heartly recommend it."
 
-Milka as ??? at 1:0 [0:Angle1, 1:Happy] "My name is Milka btw! And I will add some caramel syrup, {a} my treat"
+Milka as Milka at 1:0 [0:Angle1, 1:Happy] "My name is Milka btw! And I will add some caramel syrup, {a} my treat"
 
