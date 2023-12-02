@@ -180,13 +180,13 @@ public class TextArchitect
 
             if (i < preTextLength)
             {
-                for (int v = 0; v <4; v++)
-                vertexColors[charInfo.vertexIndex + v] = colorHidden;
+                for (int v = 0; v < 4; v++)
+                    vertexColors[charInfo.vertexIndex + v] = colorHidden;
             }
             else
             {
-                for (int v = 0; v <4; v++)
-                vertexColors[charInfo.vertexIndex + v] = colorVisable;
+                for (int v = 0; v < 4; v++)
+                    vertexColors[charInfo.vertexIndex + v] = colorVisable;
             }
         }
         tmpro.UpdateVertexData(TMP_VertexDataUpdateFlags.Colors32);
