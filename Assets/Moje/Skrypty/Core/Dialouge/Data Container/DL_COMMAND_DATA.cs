@@ -47,7 +47,7 @@ public class DL_COMMAND_DATA
         {
             if (args[i] == '"')
             {
-                inQuotes = true;
+                inQuotes = !inQuotes;
                 continue;
             }
             

@@ -48,6 +48,7 @@ public class DialougeSystem : MonoBehaviour
 
     public void ShowSpeakerName(string speakerName = "") 
     {
+        Debug.Log($"Speaker Name: {speakerName}");
         if (speakerName.ToLower() != "narrator")
         dialougeContainer.nameContainer.Show(speakerName);
         else 

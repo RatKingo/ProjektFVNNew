@@ -1,6 +1,6 @@
 Narrator "Getting up early in the morning after a week of leave turned out to be more difficult than you thought. With a slight delay, you arrive by tram that was a few minutes late as usual.{c}The crowd pours out of it like a wave, and you along with it, finally able to feel better after spending forty minutes in a hot vehicle, through which the system has alerted you several times to overheating.{c}The morning sun, breaking through the smog and tall buildings, warms your fur gently.{a} This day promises to be quite enjoyable.{c}After walking for a while, you spot your destination - the Nightliger Industries office.{a} Your steps are accompanied by your heavy sigh as you head for the main door. You know well that after a week of blissful rest outside the city, returning to work, especially office work, will be a bit tough."
 
-Moon "I will have to catch up on everything...{a} I hope I don't find too many documents to check in my mailbox."
+Moonaaa "I will have to catch up on everything...{a} I hope I don't find too many documents to check in my mailbox."
 
 Narrator "Already from behind the glass door you can see the secretary reading the reports flowing in all night. She doesn't even notice you, she's too busy. Well, when wasn't Ronnie busy?{c}You glance at the analog clock hanging behind her....{a} ten minutes to eight."
 
