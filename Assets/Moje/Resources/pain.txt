@@ -1,5 +1,0 @@
-Toothles as ??? at 1:0 [0:Angle, 1:Happy] "Heeey look what cat dragged in"
-
-Toothles as Butcher at 0.5:0.5 "Aren't you a fine piece of meat"
-
-Toothles at 1:0 "Do not worry though i can handle meat"
