@@ -1,0 +1,35 @@
+Narrator "Wchodzisz za Ronnie, z lekkim trudem zasuwając za sobą drzwi."
+
+Moon "Uhh... {wa 0.6}Ronnie? {wa 1}Czy ktoś planował zająć się tymi drzwiami?"
+
+Narrator "Ronnie siada za biurkiem i kręci głową, wpisując coś do komputera."
+
+Ronnie "Czekamy aż Chase wróci z urlopu. Po ostatniej akcji nie tylko ty potrzebowałeś wolnego.{c}Dałam znać szefowi, że już jesteś. Prowadzi rozmowę, zawoła cię."
+
+Narrator "W oczekiwaniu na szefa opierasz się o biurko Ronnie. {a}Zawieszasz na niej wzrok. {a}Chwilę temu wróciła do swojej pracy, więc teraz w skupieniu wczytuje się w dokumenty.{a} Opiera głowę na dłoni i wzdycha cicho.{c}W Twojej głowie zaczyna rodzić się jedno pytanie."
+
+Moon "Ronnie?"
+
+Ronnie "Eek!" to tutaj musi się pojawić na jakieś pół sekundy i przejść do narratora
+
+Narrator "Wystraszona Ronnie podskakuje, wyrwana ze skupienia, spoglądając na ciebie. {a}Ogarnia cię poczucie winy za wystraszenie jej. Wystarczył tydzień, byś zapomniałx, jak łatwo jest to zrobić."
+
+Moon "Przepraszam... {wa 1}Chciałxm o coś spytać."
+
+Narrator "Kobieta przytakuje powolnym ruchem głowy, gładząc swoje futro, które nastroszyło się przez emocje."
+
+Moon "Zawsze przychodzisz pierwsza i wychodzisz ostatnia... {wa 1}dlaczego?"
+
+Narrator "Usłyszałxś kolejne westchnięcie. Ronna znów oparła głowę na dłoni, smutniejąc."
+
+Ronnie "Wolę dłużej pracować tutaj niż siedzieć sama w czterech ścianach. {wa 2}No i szef płaci za każdą przepracowaną godzinę."
+
+Narrator "Po chwili namysłu wzrusza ramionami i wraca do pracy.{c}Nagle z korytarza słychać jak drzwi do jednego z pomieszczeń zostają otwarte silnym kopnięciem, przez co uderzają w ścianę, niemal wypadając z zawiasów.{wa}Ronnie podskakuje na krześle, trącając ręką kubek z resztką kawy, która wylewa się na biurko."
+
+Szef "RONNA!" 
+
+Ronnie "E{wa 0.3}-eek!"
+
+Szef "SKOŃCZYŁEM {wa 1.5}ROZMOWĘ."
+
+Narrator "Ciężkie kroki zbliżają się do recepcji, "

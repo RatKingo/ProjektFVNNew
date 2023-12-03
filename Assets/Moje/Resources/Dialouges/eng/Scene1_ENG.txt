@@ -1,0 +1,27 @@
+Narrator "Getting up early in the morning after a week of leave turned out to be more difficult than you thought. With a slight delay, you arrive by tram that was a few minutes late as usual.{c}The crowd pours out of it like a wave, and you along with it, finally able to feel better after spending forty minutes in a hot vehicle, through which the system has alerted you several times to overheating.{c}The morning sun, breaking through the smog and tall buildings, warms your fur gently.{a} This day promises to be quite enjoyable.{c}After walking for a while, you spot your destination - the Nightliger Industries office.{a} Your steps are accompanied by your heavy sigh as you head for the main door. You know well that after a week of blissful rest outside the city, returning to work, especially office work, will be a bit tough."
+
+Moon "I will have to catch up on everything...{a} I hope I don't find too many documents to check in my mailbox."
+
+Narrator "Already from behind the glass door you can see the secretary reading the reports flowing in all night. She doesn't even notice you, she's too busy. Well, when wasn't Ronnie busy?{c}You glance at the analog clock hanging behind her....{a} ten minutes to eight."
+
+Moon "A pretty good time...{a} perfect for a cigarette."
+
+Narrator "You reach into your backpack. Somewhere at the bottom, under your work laptop, you find a cigarette. You pull it out, flip it in your paw for a moment to find the switch, then insert it into the socket behind your ear.{c}Your system processes the information on it for a while, and then you feel a pleasant shiver spread through your body.{a} Your CPU works faster, at the same time you are embraced by a feeling of calm, and your body relaxes.{c}You close your eyes, listening to your surroundings.{a} In addition to the sounds of the morning rush hour, you pick up the sounds of birds sitting in a tree growing in front of the office.{c}You also hear footsteps from inside, and then the sound of sliding doors. You turn toward them, opening your eyes."
+
+Ronnie "Moon! {a}It's nice to see ya,{wa 0.5} eek!{a} How was the vacation?"
+
+Narrator "Ronnie, as usual, seeing you smiles. She has worked here for a shorter time than you, and you have gotten along well since day one.{c}You face her, carefully pull out a cigarette, turn it off, then drop it into your backpack. You smile back."
+
+Moon "I have finally relaxed. Getting out of the city has done me a lot of good, although it will be hard to sit in the office as it gets warmer."
+
+Narrator "Ronnie looks at you, taking on a more serious expression, although she is still visibly happy to see you. With a quick flick of her head back, she tosses back her hair, which has fallen too far over her eyes."
+
+Ronnie "I think you won't have to. The boss said that as soon as you return from vacation, he'll send you on a important mission."
+
+Moon "...{wa 0.5}a mission?"
+
+Narrator "This information comes as a surprise to you. There was no indication that you would be assigned a mission anytime soon, especially since your boss never sent you on missions that were especially important alone.{c}Ronnie nods eagerly."
+
+Ronnie "Yeah, {wa 0.5}eek!{a} Come, he wanted me to send you to his office right away when you arrived."
+
+Narrator "Ronnie immediately goes inside, leaving the door open. From what you remember, before your leave they were still opening automatically."
