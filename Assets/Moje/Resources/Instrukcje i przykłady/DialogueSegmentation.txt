@@ -1,4 +1,4 @@
-
+!!!!!UWAGA Narrator fikołka zrobił, prosze pisac tam gdzie mowi narrator jako pare spacji. UWAGA!!!!!!!
 
 speaker "dialogue here"
 speaker "dialogue Line 1{c}Line 2{a}Line 3"

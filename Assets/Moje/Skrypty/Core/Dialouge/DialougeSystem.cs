@@ -53,7 +53,6 @@ public class DialougeSystem : MonoBehaviour
         dialougeContainer.nameContainer.Show(speakerName);
         else 
         HideSpeakerName();
-
     }
 
     public void HideSpeakerName() => dialougeContainer.nameContainer.Hide();
