@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using DIALOUGE;
 
 namespace CHARACTERS
 {
@@ -30,7 +31,7 @@ namespace CHARACTERS
             result.dialogueFont = dialogueFont;
 
             result.nameColor = new Color(nameColor.r, nameColor.g, nameColor.b, nameColor.a);
-            result.dialogueColorColor = new Color(dialogueColor.r, dialogueColor.g, dialogueColor.b, dialogueColor.a);
+            result.dialogueColor = new Color(dialogueColor.r, dialogueColor.g, dialogueColor.b, dialogueColor.a);
 
 
             return result;
@@ -53,12 +54,10 @@ namespace CHARACTERS
                 result.nameFont = defaultFont;
                 result.dialogueFont = defaultFont;
                 result.nameColor = new Color(defaultColor.r, defaultColor.g, defaultColor.b, defaultColor.a);
-                result.dialogueColorColor = new Color(defaultColor.r, defaultColor.g, defaultColor.b, defaultColor.a);
+                result.dialogueColor = new Color(defaultColor.r, defaultColor.g, defaultColor.b, defaultColor.a);
 
 
                 return result;
-
-
             }
 
         }

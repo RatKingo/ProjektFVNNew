@@ -2401,6 +2401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 289910bbb0ab81a42a79efc27e2e6a86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _config: {fileID: 11400000, guid: dc30f4d323247ba42be9758e1aa4936a, type: 2}
   dialougeContainer:
     root: {fileID: 719758230}
     nameContainer:

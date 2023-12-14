@@ -1,3 +1,4 @@
+using DIALOUGE;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,8 @@ public class CharacterManager : MonoBehaviour
     {
         public static CharacterManager instance { get; private set; }
         private Dictionary<string, Character> characters = new Dictionary<string, Character>();
+
+        private CharacterConfigSO config => DialougeSystem.instance.config.characterConfigurationAsset;
 
         private void Awake()
         {
@@ -24,7 +27,9 @@ public class CharacterManager : MonoBehaviour
 
             CHARACTER_INFO info = GetCharacterInfo(characterName);
 
-            return null;
+            Character character = CreateCharacterFromInfo(info);
+
+            return character;
         }
 
         private CHARACTER_INFO GetCharacterInfo(string characterName)
@@ -33,8 +38,38 @@ public class CharacterManager : MonoBehaviour
 
             result.name = characterName;
 
+            result.config = config.GetConfig(characterName);
+
             return result;
         }
+
+        private Character CreateCharacterFromInfo(string characterName)
+        {
+            CHARACTER_INFO result = new CHARACTER_INFO();
+            
+            result.name = characterName;
+
+            result.config = config.GetConfig(characterName);
+
+            return result;
+        }
+
+        private Character CreateCharacterFromInfo(CHARACTER_INFO info)
+        {
+            switch(info.config.characterType)
+            {
+                case Character.CharacterType.Text:
+                    return new Character_Text(info.name);
+                
+                 case Character.CharacterType.Sprite:
+                 case Character.CharacterType.SpriteSheet:
+                    return new Character_Sprite(info.name);
+                
+                default:
+                    return null;
+            }
+        }
+
 
         private class CHARACTER_INFO
         {

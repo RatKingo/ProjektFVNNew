@@ -1,5 +1,6 @@
 using CHARACTERS;
 using UnityEngine;
+using TMPro;
 
 namespace DIALOUGE 
 {

@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9738fd9655dd18a4fb47d797582f14bc, type: 3}
   m_Name: Dialogue System Configuration
   m_EditorClassIdentifier: 
-  characterConfigurationAsset: {fileID: 0}
+  characterConfigurationAsset: {fileID: 11400000, guid: f006da08e8e02464db7e6837eb5e34e5,
+    type: 2}
+  defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+  defaultFont: {fileID: 0}
