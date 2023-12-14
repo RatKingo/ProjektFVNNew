@@ -1,30 +1,30 @@
-Narrator "Wchodzisz za Ronnie, z lekkim trudem zasuwając za sobą drzwi."
+NarrAtor "Wchodzisz za Ronnie, z lekkim trudem zasuwając za sobą drzwi."
 
 Moon "Uhh... {wa 0.6}Ronnie? {wa 1}Czy ktoś planował zająć się tymi drzwiami?"
 
-Narrator "Ronnie siada za biurkiem i kręci głową, wpisując coś do komputera."
+NarrAtor "Ronnie siada za biurkiem i kręci głową, wpisując coś do komputera."
 
 Ronnie "Czekamy aż Chase wróci z urlopu. Po ostatniej akcji nie tylko ty potrzebowałeś wolnego.{c}Dałam znać szefowi, że już jesteś. Prowadzi rozmowę, zawoła cię."
 
-Narrator "W oczekiwaniu na szefa opierasz się o biurko Ronnie. {a}Zawieszasz na niej wzrok. {a}Chwilę temu wróciła do swojej pracy, więc teraz w skupieniu wczytuje się w dokumenty.{a} Opiera głowę na dłoni i wzdycha cicho.{c}W Twojej głowie zaczyna rodzić się jedno pytanie."
+NarrAtor "W oczekiwaniu na szefa opierasz się o biurko Ronnie. {a}Zawieszasz na niej wzrok. {a}Chwilę temu wróciła do swojej pracy, więc teraz w skupieniu wczytuje się w dokumenty.{a} Opiera głowę na dłoni i wzdycha cicho.{c}W Twojej głowie zaczyna rodzić się jedno pytanie."
 
 Moon "Ronnie?"
 
-Ronnie "Eek!" to tutaj musi się pojawić na jakieś pół sekundy i przejść do narratora
+Ronnie "Eek!" to tutaj musi się pojawić na jakieś pół sekundy i przejść do NarrAtora
 
-Narrator "Wystraszona Ronnie podskakuje, wyrwana ze skupienia, spoglądając na ciebie. {a}Ogarnia cię poczucie winy za wystraszenie jej. Wystarczył tydzień, byś zapomniałx, jak łatwo jest to zrobić."
+NarrAtor "Wystraszona Ronnie podskakuje, wyrwana ze skupienia, spoglądając na ciebie. {a}Ogarnia cię poczucie winy za wystraszenie jej. Wystarczył tydzień, byś zapomniałx, jak łatwo jest to zrobić."
 
 Moon "Przepraszam... {wa 1}Chciałxm o coś spytać."
 
-Narrator "Kobieta przytakuje powolnym ruchem głowy, gładząc swoje futro, które nastroszyło się przez emocje."
+NarrAtor "Kobieta przytakuje powolnym ruchem głowy, gładząc swoje futro, które nastroszyło się przez emocje."
 
 Moon "Zawsze przychodzisz pierwsza i wychodzisz ostatnia... {wa 1}dlaczego?"
 
-Narrator "Usłyszałxś kolejne westchnięcie. Ronna znów oparła głowę na dłoni, smutniejąc."
+NarrAtor "Usłyszałxś kolejne westchnięcie. Ronna znów oparła głowę na dłoni, smutniejąc."
 
 Ronnie "Wolę dłużej pracować tutaj niż siedzieć sama w czterech ścianach. {wa 2}No i szef płaci za każdą przepracowaną godzinę."
 
-Narrator "Po chwili namysłu wzrusza ramionami i wraca do pracy.{c}Nagle z korytarza słychać jak drzwi do jednego z pomieszczeń zostają otwarte silnym kopnięciem, przez co uderzają w ścianę, niemal wypadając z zawiasów.{wa}Ronnie podskakuje na krześle, trącając ręką kubek z resztką kawy, która wylewa się na biurko."
+NarrAtor "Po chwili namysłu wzrusza ramionami i wraca do pracy.{c}Nagle z korytarza słychać jak drzwi do jednego z pomieszczeń zostają otwarte silnym kopnięciem, przez co uderzają w ścianę, niemal wypadając z zawiasów.{c}Ronnie podskakuje na krześle, trącając ręką kubek z resztką kawy, która wylewa się na biurko."
 
 Szef "RONNA!" 
 
@@ -32,4 +32,23 @@ Ronnie "E{wa 0.3}-eek!"
 
 Szef "SKOŃCZYŁEM {wa 1.5}ROZMOWĘ."
 
-Narrator "Ciężkie kroki zbliżają się do recepcji, "
+NarrAtor "Ciężkie kroki zbliżają się do recepcji, drgania przenoszą się po podłodze. {a}Ronnie kuli się, spoglądając w kierunku, z którego nadchodzi szef.{c}Po dłuższej chwili staje, spoglądając najpierw na ciebie, a później na Ronnę."
+
+Ronnie "D{wa 0.3}-dobrze... {a}szefie..."
+Szef "UMÓWISZ {a}MI {a} KOLEJNE{a} SPOTKANIE{a}... PROSZĘ?"
+
+NarrAtor "Szef, radośnie machając ogonem, uśmiecha się i spogląda na Ronnę, a później na ciebie. Jego groźny wygląd, zachrypnięty, niski głos i sposób, w jaki się porusza potrafi sprawić, że po plecach przechodzi dreszcz.{c}Widzisz jak taki dreszcz wstrząsa całym ciałem Ronnie. Po chwili jednak na jej przerażonej twarzy pojawia się ciepły uśmiech.{c}Mimo wszystko jest to bardzo przyjazny mężczyzna, który po prostu groźnie wygląda."
+
+Ronnie "Rozumiem, że z tą samą osobą?"
+
+Szef "TAK,{a} Z TĄ SAMĄ.{c}DZIĘKI.
+
+NarrAtor "Przyglądasz się jak Ronnie znów kuli się na donośny głos szefa, by po chwili przytaknąć i zabrać się do pracy.{c}Nagle czujesz ciężką rękę na swoim barku. Twój system wskazuje, że jesteś przeciążony. Krzywisz się, czując to też w swoich nogach.{c}Zerkasz na giganta, który stoi tuż obok ciebie, szeroko się uśmiechając."
+
+Szef "CHODŹ,{a} MOON. {a}MUSIMY COŚ OBGADAĆ."
+
+NarrAtor "Ciężar dłoni znika, czujesz ulgę w nogach, a także drgania, jakie przenoszą się po podłodze, gdy szef odchodzi w kierunku swojego gabinetu.{c}Ronnie patrzy na ciebie, przekrzywiając lekko głowę."
+
+Ronnie "Zajrzyj do mnie jeszcze później."
+
+NarrAtor "Przytakujesz i powoli przechodzisz do głównego korytarza."

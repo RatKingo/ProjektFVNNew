@@ -1,0 +1,121 @@
+NarrAtor "Wchodząc do kawiarni od razu wyczuwasz przyjemny zapach kawy, docierają też do ciebie głosy klientów siedzących przy stolikach.{c}Przecierasz swoją twarz łapami, by zetrzeć z niej krople deszczu, który odbija się od parapetu na zewnątrz. W końcu możesz odetchnąć."
+
+Danielle "Lara, zapraszam po cappuccino!"
+
+NarrAtor "Spoglądasz w stronę lady. Danielle przeciera kubek szmatką i gdy unosi wzrok, uśmiecha się do ciebie.{a} Odwzajemniasz uśmiech.{c}Czekasz aż klientka odbierze swoją kawę, po czym powoli podchodzisz bliżej lady, by złożyć zamówienie."
+
+Danielle "Dobry wieczór,{wa 0.5} Haven.{wa 1} Co podać?"
+
+- Poproszę latte. 
+
+Haven "Dobrze cię widzieć, Danielle. Poproszę latte."
+
+NarrAtor "Danielle wpisuje dane do terminalu. Przykładasz palec do czytnika, potwierdzając płatność.{wa 0.5} Kobieta podchodzi do ekspresu i zaczyna realizować twoje zamówienie."
+
+Danielle "Ostatnio rzadziej tu bywasz."
+
+Haven "Miałem małą...{wa 1} awarię.{wa 0.5} Na szczęście mogę już chodzić."
+
+NarrAtor "Danielle zerka na ciebie znad ekspresu zaskoczona oraz dość przejęta twoimi słowami. Sięga po serwetkę i zapisuje coś na niej."
+
+Danielle "To nie brzmi jak mała awaria,{wa 0.5} Haven.{wa 1} Dobrze, że doszedłeś do siebie.{c}Poza tym, to jak się czujesz?"
+
+Haven "Całkiem dobrze, siedząc w domu mogłem bardziej skupić się na pracy, ale dzisiaj w końcu się od tego oderwałem."
+
+Danielle "Och!{wa 0.5} No tak!{wa 1} Pisałeś ostatnio coś ciekawego?"
+
+NarrAtor "Na słowa o twojej pracy Danielle wyraźnie się ożywia. Wiele razy widziałeś ją siedzącą za ladą z książką, kiedy nie miała kogo obsłużyć. Wejście w rolę pisarza było bardzo dobrym wyborem.{c}Kręcisz głową i wzdychasz ze znudzeniem."
+
+Haven "Nic rozwijającego, dostałem sporo tekstu do korekty, to tyle."
+
+NarrAtor "Danielle wzdycha cicho i wzrusza ramionami. Ekspres kończy pracę. Baristka stawia kubek na spodku, dokłada łyżeczkę oraz ciastko.{a} Gestem zaprasza cię, byś usiadł na stołku barowym przy ladzie, stawiając tam też twoje zamówienie.{c}Zajmujesz wybrane przez nią miejsce."
+
+Danielle "Słyszałam, że osoby pijące latte są zwykle łagodne, ugodowe i szczęśliwe.{a} Idą z prądem i dlatego robią to samo z gorącym mlekiem i odrobiną kawy,{wa 2} bo cóż może pójść nie tak?"
+
+NarrAtor "Uśmiechasz się."
+
+Haven "Myślisz, że taki jestem?"
+
+NarrAtor "Na twoje pytanie Danielle zamyśla się przez dłuższą chwilę, by przytaknąć powolnym ruchem głowy i oprzeć się o ladę."
+
+Danielle "Hmm...{wa 1} po części tak. {wa 0.5}Chociaż nie powiedziałabym, że idziesz z prądem. {wa 0.5}Może czasami.{wa 0.5} A może nie znam cię na tyle, by to stwierdzić?"
+
+NarrAtor "Unosisz kubek, by spróbować kawy. Danielle podsuwa ci serwetkę, jest na niej coś napisane."
+
+Danielle "To mój numer.{wa 1} Jakbyś...{wa 1} no wiesz...{wa 1} znów miał awarię."
+
+- Niech będzie cortado.
+
+Haven "Dobrze cię widzieć, Danielle. Niech będzie cortado."
+
+NarrAtor "Danielle wpisuje dane do terminalu. Przykładasz palec do czytnika, potwierdzając płatność.{wa 0.5} Kobieta podchodzi do ekspresu i zaczyna realizować twoje zamówienie."
+
+Danielle "Ostatnio rzadziej tu bywasz."
+
+Haven "Miałem małą...{wa 1} awarię.{wa 0.5} Na szczęście mogę już chodzić."
+
+NarrAtor "Danielle zerka na ciebie znad ekspresu zaskoczona oraz dość przejęta twoimi słowami. Sięga po serwetkę i zapisuje coś na niej."
+
+Danielle "To nie brzmi jak mała awaria,{wa 0.5} Haven.{wa 1} Dobrze, że doszedłeś do siebie.{c}Poza tym, to jak się czujesz?"
+
+Haven "Całkiem dobrze, siedząc w domu mogłem bardziej skupić się na pracy, ale dzisiaj w końcu się od tego oderwałem."
+
+Danielle "Och!{wa 0.5} No tak!{wa 1} Pisałeś ostatnio coś ciekawego?"
+
+NarrAtor "Na słowa o twojej pracy Danielle wyraźnie się ożywia. Wiele razy widziałeś ją siedzącą za ladą z książką, kiedy nie miała kogo obsłużyć. Wejście w rolę pisarza było bardzo dobrym wyborem.{c}Kręcisz głową i wzdychasz ze znudzeniem."
+
+Haven "Nic rozwijającego, dostałem sporo tekstu do korekty, to tyle."
+
+NarrAtor "Danielle wzdycha cicho i wzrusza ramionami. Ekspres kończy pracę. Baristka stawia kubek na spodku, dokłada łyżeczkę oraz ciastko.{a} Gestem zaprasza cię, byś usiadł na stołku barowym przy ladzie, stawiając tam też twoje zamówienie.{c}Zajmujesz wybrane przez nią miejsce."
+
+Danielle "Podobno cortado to napój osoby, która lubi zasady, porządek i nie przepada za zmianami.{wa 2} Inteligentny typ,{wa 1} a przynajmniej ktoś, kto myśli, że jest inteligentny...{c}I chociaż jest to w pewnym sensie bardziej wyjątkowe zamówienie, ta osoba nie będzie miała tendencji do bycia prawdziwym ekstrawertykiem.{wa 2} Jednak osoba pijąca cortado wie, że jej opinia ma znaczenie."
+
+NarrAtor "Uśmiechasz się."
+
+Haven "Myślisz, że taki jestem?"
+
+NarrAtor "Na twoje pytanie Danielle zamyśla się przez dłuższą chwilę, by przytaknąć powolnym ruchem głowy i oprzeć się o ladę."
+
+Danielle "Hmm...{wa 1} po części tak.{wa 0.5} Jesteś dość inteligentny,{wa 0.5} chociaż wydajesz się osobą, która dość często obraca się wśród innych.{wa 0.5} A może nie znam cię na tyle, by to stwierdzić?"
+
+NarrAtor "Unosisz kubek, by spróbować kawy. Danielle podsuwa ci serwetkę, jest na niej coś napisane."
+
+Danielle "To mój numer.{wa 1} Jakbyś...{wa 1} no wiesz...{wa 1} znów miał awarię."
+
+- Dzisiaj mocha.
+
+Haven "Dobrze cię widzieć, Danielle. Dzisiaj mocha."
+
+NarrAtor "Danielle wpisuje dane do terminalu. Przykładasz palec do czytnika, potwierdzając płatność.{wa 0.5} Kobieta podchodzi do ekspresu i zaczyna realizować twoje zamówienie."
+
+Danielle "Ostatnio rzadziej tu bywasz."
+
+Haven "Miałem małą...{wa 1} awarię.{wa 0.5} Na szczęście mogę już chodzić."
+
+NarrAtor "Danielle zerka na ciebie znad ekspresu zaskoczona oraz dość przejęta twoimi słowami. Sięga po serwetkę i zapisuje coś na niej."
+
+Danielle "To nie brzmi jak mała awaria,{wa 0.5} Haven.{wa 1} Dobrze, że doszedłeś do siebie.{c}Poza tym, to jak się czujesz?"
+
+Haven "Całkiem dobrze, siedząc w domu mogłem bardziej skupić się na pracy, ale dzisiaj w końcu się od tego oderwałem."
+
+Danielle "Och!{wa 0.5} No tak!{wa 1} Pisałeś ostatnio coś ciekawego?"
+
+NarrAtor "Na słowa o twojej pracy Danielle wyraźnie się ożywia. Wiele razy widziałeś ją siedzącą za ladą z książką, kiedy nie miała kogo obsłużyć. Wejście w rolę pisarza było bardzo dobrym wyborem.{c}Kręcisz głową i wzdychasz ze znudzeniem."
+
+Haven "Nic rozwijającego, dostałem sporo tekstu do korekty, to tyle."
+
+NarrAtor "Danielle wzdycha cicho i wzrusza ramionami. Ekspres kończy pracę. Baristka stawia kubek na spodku, dokłada łyżeczkę oraz ciastko.{a} Gestem zaprasza cię, byś usiadł na stołku barowym przy ladzie, stawiając tam też twoje zamówienie.{c}Zajmujesz wybrane przez nią miejsce."
+
+Danielle "Wybór mokki jest dość interesujący,{wa 1} jest to prawdopodobnie najsłodsza ze wszystkich kaw i jedna z najczęściej fotografowanych.{c}Podobno osoby, które go zamawiają, są prawdopodobnie bardzo ekstrawertyczni, towarzyscy, ekstrawaganccy i potencjalnie dość głośni.{wa 2} Są duszą towarzystwa i lubią, gdy ich napój wyróżnia się z tłumu i jest wyjątkowy"
+
+NarrAtor "Uśmiechasz się."
+
+Haven "Myślisz, że taki jestem?"
+
+NarrAtor "Na twoje pytanie Danielle zamyśla się przez dłuższą chwilę, by przytaknąć powolnym ruchem głowy i oprzeć się o ladę."
+
+Danielle "Hmm...{wa 1} po części tak.{wa 0.5} Chociaż nie powiedziałabym, że jesteś głośny.{wa 0.5} A może nie znam cię na tyle, by to stwierdzić?"
+
+NarrAtor "Unosisz kubek, by spróbować kawy. Danielle podsuwa ci serwetkę, jest na niej coś napisane."
+
+Danielle "To mój numer.{wa 1} Jakbyś...{wa 1} no wiesz...{wa 1} znów miał awarię."

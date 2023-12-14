@@ -1,0 +1,11 @@
+Scene1
+tło: korpo.png https://cdn.discordapp.com/attachments/1166769996085592116/1182872257874370650/korpo.png?ex=658646a2&is=6573d1a2&hm=2d2c7d4f0a36bc9830e7e5879ffecda4e904caf9b923f7571ae4b895f2754a5f&
+postacie występujące: Ronnie
+
+Scene2
+tło: lobby.png https://cdn.discordapp.com/attachments/1166769996085592116/1182872256314101820/lobby.png?ex=658646a2&is=6573d1a2&hm=e18d2e44ac4e6fc8c02c9eca102bfbd63b30a7c07196abda85768ce0dd5e89ad&
+postacie występujące: Ronnie, Boss
+
+Scena_testowa_wybory
+tło: cafe.png https://cdn.discordapp.com/attachments/1166769996085592116/1182872261385003078/cafe.png?ex=658646a3&is=6573d1a3&hm=82cdd8c36dda9607fcf46c2ac432cfdd6332a3d5eea43bdf7eca26c8ea20613a&
+postacie występujące: Danielle
