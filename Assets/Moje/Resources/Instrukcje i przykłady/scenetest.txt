@@ -1,5 +1,0 @@
-narrator "chuj dupa cycki"
-
-poopoopeepee as narrator "chuj bombki strzelił"
-
-narrator as poopoopeepee "szambo wyjebało"

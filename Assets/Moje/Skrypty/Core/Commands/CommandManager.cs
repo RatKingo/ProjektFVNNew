@@ -4,7 +4,9 @@ using UnityEngine;
 using System.Reflection;
 using System.Linq;
 using System;
-
+ 
+namespace COMMANDS
+{
 public class CommandManager : MonoBehaviour
 {
     public static CommandManager instance { get; private set; }
@@ -90,5 +92,6 @@ public class CommandManager : MonoBehaviour
         else if (command is Func<string[], IEnumerator>)
             yield return ((Func<string[], IEnumerator>)command)(args);
         
+}
 }
 }

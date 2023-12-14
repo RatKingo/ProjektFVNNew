@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using COMMANDS;
 
 namespace DIALOUGE
 {
@@ -56,6 +57,9 @@ public class ConversationManager
             if(line.hasCommands)
                 yield return Line_RunCommands(line);
 
+            if(line.hasDialogue)
+             yield return WaitForUserInput();
+
            }
     }
     IEnumerator Line_RunDialogue(DIALOUGE_LINE line)
@@ -66,13 +70,19 @@ public class ConversationManager
 
        yield return BuildLineSegments(line.dialogue);
 
-       yield return WaitForUserInput();
-    
     }
 
   IEnumerator Line_RunCommands(DIALOUGE_LINE line)
     {
-     Debug.Log(line.commands);
+    List<DL_COMMAND_DATA.Command> commands = line.commands.commands;
+
+    foreach(DL_COMMAND_DATA.Command command in commands)
+    {
+        if (command.waitForCompletion)
+            yield return CommandManager.instance.Execute(command.name, command.arguments);
+        else
+        CommandManager.instance.Execute(command.name, command.arguments);
+    }
     yield return null;
     }
 

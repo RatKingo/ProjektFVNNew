@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-
+namespace DIALOUGE
+{
 public class DL_DIALOGUE_DATA
 {
     public List<DIALOGUE_SEGMENT> segments;
@@ -69,4 +70,5 @@ public class DL_DIALOGUE_DATA
 
     public bool appendText => (startSignal == StartSignal.A || startSignal == StartSignal.WA);
    }
+}
 }

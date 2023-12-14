@@ -7,7 +7,7 @@ namespace DIALOUGE
 {
 public class DialougeParser
 {
-    private const string commandRegexPattern = @"\w*[^\s]\(";
+    private const string commandRegexPattern = @"[\w\[\]]*[^\s]\(";
 
 
     public static DIALOUGE_LINE Parse(string rawLine)
@@ -47,14 +47,19 @@ public class DialougeParser
 
         //Identify Command Pattern
         Regex commandRegex = new Regex(commandRegexPattern);
-        Match match = commandRegex.Match(rawLine);
+        MatchCollection matches = commandRegex.Matches(rawLine);
         int commandStart = -1;
-        if (match.Success)
+        foreach(Match match in matches)
         {
-            commandStart = match.Index;
-            if (dialogueStart == -1 && dialogueEnd == -1)
-                return ("", "", rawLine.Trim());
+            if (match.Index < dialogueStart || match.Index > dialogueEnd)
+            {
+                commandStart = match.Index;
+                break;
+            }
         }
+
+        if (commandStart != 1 && (dialogueStart == -1 && dialogueEnd == -1))
+            return ("", "", rawLine.Trim());
 
         if (dialogueStart != -1 && dialogueEnd != -1 && (commandStart == -1 || commandStart > dialogueEnd))
         {
@@ -66,7 +71,8 @@ public class DialougeParser
         }
         else if (commandStart != -1 && dialogueStart > commandStart)
             commands = rawLine;
-        else speaker = rawLine;
+        else
+         dialogue = rawLine;
 
 
         return (speaker, dialogue, commands);

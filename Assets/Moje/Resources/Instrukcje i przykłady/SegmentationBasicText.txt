@@ -1,4 +1,8 @@
-Milka as ??? [0:Angle1, 1:Happy] "You know diary is as valuable as meat right?{a} For your body and all."
+print_lp("This is a command running tsraight from our dialogue file")
+
+Milka "You know diary is as valuable as meat right?{a} For your body and all." print_lp("Start Moving"), [wait]moveCharDemo(left), [wait]moveCharDemo(right), print_lp("Done Moving")
+
+"Milky milk for my dear customer" 
 
 Milka as ??? at 1:0 [0:Angle1, 1:Happy] "Your bones need to be strong! {a} And milk is a perfect way to do that! {c} Especially my milk."
 

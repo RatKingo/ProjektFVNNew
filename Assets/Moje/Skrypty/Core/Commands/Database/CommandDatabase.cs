@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace COMMANDS
+{
 public class CommandDatabase
 {
     private Dictionary<string, Delegate> database = new Dictionary<string, Delegate>();
@@ -29,4 +31,5 @@ public class CommandDatabase
         
         return database[commandName];
     }
+}
 }

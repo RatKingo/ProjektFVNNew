@@ -3,6 +3,8 @@ using System.Text.RegularExpressions;
 using System.Linq;
 using UnityEngine;
 
+namespace DIALOUGE
+{
 public class DL_SPEAKER_DATA 
 {
     public string name, castName;
@@ -90,4 +92,5 @@ public class DL_SPEAKER_DATA
         }
     }
 
+}
 }

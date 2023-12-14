@@ -3,16 +3,20 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
+namespace DIALOUGE
+{
 public class DL_COMMAND_DATA
 {
     public List<Command> commands;
     private const char COMMANDSPLITTER_ID = ',';
     private const char ARGUMENTSCONTAINER_ID = '(';
+    private const string WAITCOMMAND_ID ="[wait]";
 
     public struct Command
     {
         public string name;
         public string[] arguments;
+        public bool waitForCompletion;
     }
 
     public DL_COMMAND_DATA(string rawCommands)
@@ -30,6 +34,15 @@ public class DL_COMMAND_DATA
             Command command = new Command();
             int index = cmd.IndexOf(ARGUMENTSCONTAINER_ID);
             command.name = cmd.Substring(0, index).Trim();
+
+            if (command.name.ToLower().StartsWith(WAITCOMMAND_ID))
+            {
+                command.name = command.name.Substring(WAITCOMMAND_ID.Length);
+                command.waitForCompletion = true;
+            }
+            else
+                command.waitForCompletion = false;
+            
             command.arguments = GetArgs(cmd.Substring(index + 1, cmd.Length - index - 2));
             result.Add(command);
         }
@@ -67,4 +80,5 @@ public class DL_COMMAND_DATA
         return argList.ToArray();
 
     }
+}
 }

@@ -1,8 +1,11 @@
+using COMMANDS;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace TESTING
+{
 public class CMD_DatabaseExtension_Example : CMD_DatabaseExtension
 {
     new public static void Extend(CommandDatabase database)
@@ -91,10 +94,10 @@ public class CMD_DatabaseExtension_Example : CMD_DatabaseExtension
         //Move the iamge gradually towards the target position
         while (Mathf.Abs(targetX - currentX) > 0.1f)
         {
-            Debug.Log($"Moving character to{(left ? "left" : "right")} [{currentX}/{targetX}]");
             currentX = Mathf.MoveTowards(currentX, targetX, moveSpeed * Time.deltaTime);
             character.position = new Vector3(currentX, character.position.y, character.position.z);
             yield return null;
         }
     }
+}
 }
