@@ -33,6 +33,8 @@ public class DL_COMMAND_DATA
         {
             Command command = new Command();
             int index = cmd.IndexOf(ARGUMENTSCONTAINER_ID);
+            if (index >= 0 && index < cmd.Length - 2)
+            {
             command.name = cmd.Substring(0, index).Trim();
 
             if (command.name.ToLower().StartsWith(WAITCOMMAND_ID))
@@ -45,6 +47,7 @@ public class DL_COMMAND_DATA
             
             command.arguments = GetArgs(cmd.Substring(index + 1, cmd.Length - index - 2));
             result.Add(command);
+            }
         }
         
         return result;
