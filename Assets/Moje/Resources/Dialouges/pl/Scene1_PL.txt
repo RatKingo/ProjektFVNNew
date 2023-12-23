@@ -8,7 +8,7 @@ Moon "Całkiem dobry czas... {a}idealny na e-papierosa."
 
 NarrAtor "Sięgasz do plecaka. Gdzieś na dnie, pod służbowym laptopem, znajdujesz e-papierosa. Wyciągasz go, obracasz przez chwilę w łapie, by znaleźć włącznik, po czym wkładasz go do gniazda za swoim uchem.{c}Twój system przez chwilę przetwarza informacje na nim zawarte, a później czujesz jak po twoim ciele rozchodzi się przyjemny dreszcz.{a} Twój procesor pracuje szybciej, jednocześnie ogarnia cię uczucie spokoju, a ciało się rozluźnia.{c}Przymykasz oczy, wsłuchujesz się w otoczenie.{a} Poza odgłosami porannego szczytu, wychwytujesz dźwięki ptaków siedzących na drzewie rosnącym przed biurem.{c}Słyszysz też kroki ze środka, a później dźwięk przesuwania drzwi. Zwracasz się w ich kierunku, otwierając oczy."
 
-Ronnie "Moon!" print_lp("Start Moving"), [wait]moveCharDemo(right), print_lp("Done Moving") 
+Ronnie as ??? "Moon!" print_lp("Start Moving"), [wait]moveCharDemo(right), print_lp("Done Moving") 
 
 "Dobrze cię widzieć,{wa 0.5} eek!{a} Jak było na urlopie?"
 
