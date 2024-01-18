@@ -1,0 +1,47 @@
+Szef "DOBRA, TO DO RZECZY."
+
+Moon "Szefie... nie chcę być niemiły, ale strasznie pan krzyczy."
+
+NarrAtor "Szef otwiera szerzej oczy i speszony siada na swoje krzesło. Robi to bardzo szybko, krzesło aż trzeszczy pod nim. Zdaje się być zbyt małe na jego wielkie ciało."
+
+Szef "PRZEPRASZAM. BĘDĘ MÓWIŁ CISZEJ."
+
+NarrAtor "Niestety, szef nie mówi ciszej. Przynajmniej ton jego głosu jest dużo bardziej znośny."
+
+Moon "Ta misja, tak?"
+
+NarrAtor "Siadasz na krześle po drugiej stronie biurka szefa."
+
+Szef "TAK. STIHHIL WYPUŚCIŁ SWOICH W MIASTO. NIGDY TEGO NIE ROBILI. UWAŻAMY, ŻE MOGĄ W TEN SPOSÓB CHCIEĆ ZBLIŻYĆ SIĘ DO ZWYKŁYCH, NAZWIJMY TO, CYWILNYCH KLIENTÓW.{c}PRAWDOPODOBNIE CHCĄ POZNAĆ ICH POTRZEBY, BY SPRZĄTNĄĆ NAM ICH SPRZED NOSA.{c}PRZECIEŻ TO NASZE GŁÓWNE ŹRÓDŁO LEGALNEGO ZAROBKU, NIE MOŻEMY TEGO ODDAĆ."
+
+NarrAtor "Ta chwila rozmowy z szefem, który coraz bardziej emocjonalnie i donośnie wyrażał swoją frustrację, zdążyła cię już zmęczyć."
+
+Moon "Co mam robić? Mam być cywilem?"
+
+Szef "TAK! WIEDZIAŁEM, ŻE OD RAZU ZAŁAPIESZ! PRZYGOTOWALIŚMY CI NOWY SYSTEM Z WGRANYMI DANYMI PISARZA,{c}RUSZYSZ W TEREN, WTOPISZ SIĘ W MIESZKAŃCÓW.{c}BĘDZIESZ JAK JEDEN Z NICH, PRZY OKAZJI SZUKAJĄC AGENTÓW STIHHILA.{c}IDEALNIE BY BYŁO, GDYBYŚ ZBLIŻYŁ SIĘ DO PRZYNAJMNIEJ JEDNEGO Z NICH, BY OTWORZYŁ SIĘ PRZED TOBĄ I SYPNĄŁ INFORMACJAMI."
+
+Moon "...Zbliżyć?{c}W sensie... {a}zaprzyjaźnić?"
+
+NarrAtor "Szef kręci głową i opiera się o biurko, by zbliżyć się do ciebie. Mebel ugina się pod jego ciężarem."
+
+Szef "LEPIEJ.{c}MASZ WEJŚĆ W ZWIĄZEK."
+
+NarrAtor "Nigdy nie przejmowałeś się życiem uczuciowym, a teraz ma opierać się na tym cała twoja misja?{c}Czujesz jak tracisz czucie w kończynach, system grzeje się na tyle, że musi wykonać awaryjny restart."
+
+Szef "MOON!"
+
+NarrAtor "Po dłuższej chwili odzyskujesz przytomność"
+
+Moon "Przepraszam...{a}ja...{c}Chyba za długo odkładałem aktualizację systemu."
+
+Szef "TEŻ MI SIĘ TO ZDARZA, ALE NIE RÓB TAK W TRAKCIE MISJI."
+
+Moon "Tak jest."
+
+Szef "WIEMY, ŻE PIERWSZY Z AGENTÓW PRACUJE W KAWIARNI PRZY AUTOSTRADZIE. RESZTĘ MUSISZ ZNALEŹĆ SAM."
+
+Moon "Jest jakaś dokumentacja, mogę się zapoznać ze szczegółami?"
+
+Szef "RONNIE WSZYSTKO MA, IDŹ DO NIEJ. JA IDĘ NA SPOTKANIE."
+
+NarrAtor "Szef wychodzi, trzęsąc ścianami przez swoje kroki. Ta cała sytuacja wydaje ci się zbyt surrealistyczna, chociaż wiesz, że obecny szef nigdy nie pracował normalnie.{c}Osuwasz się lekko na krześle, myśląc o tym, czego się dowiedziałeś.{c}Nie wiesz ile czasu mija, ale w końcu postanawiasz ruszyć się z miejsca i wyjść z gabinetu."

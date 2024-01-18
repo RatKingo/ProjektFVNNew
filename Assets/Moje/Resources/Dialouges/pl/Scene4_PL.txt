@@ -1,0 +1,47 @@
+NarrAtor "Po wyjściu z gabinetu szefa za drzwiami czeka na ciebie Ronnie. Widocznie nie mogła się doczekać aż wyjdziesz."
+
+Ronnie "I co, co myślisz?"
+
+Moon "Wydaje się być odpowiedzialną misją. Skoro konkurencja wypuściła swoich w teren, nie dziwię się, że u nas wydarzyło się to samo."
+
+Ronnie "Nie cieszysz się?"
+
+NarrAtor "Wzdychasz ciężko."
+
+Moon "Nie wiem, Ronnie. {wa 0.6}Nigdy nie zmieniałem tożsamości na tak długo...{a} I nie byłem dobry w romansowaniu.{c}Będzie ciężko, ale muszę dać radę."
+
+Ronnie "Może umówię ci parę wizyt z naszym psychologiem w trakcie misji?"
+
+NarrAtor "Zastanawiasz się przez chwilę."
+
+Moon "Dam znać czy będę tego potrzebować."
+
+NarrAtor "Ronnie przytakuje i rusza w kierunku swojego biurka. Siada przy nim. Na wierzchu leży już karta do twojego nowego domu oraz druga, mniejsza."
+
+Roonie "Będziesz mieszkać w małym domu z dwiema sypialniami na obrzeżach miasta. W sąsiedztwie mieszkają głównie starsze rodziny i pary, więc nie ma zbyt wiele hałasu, o który można się martwić.{c} Dość blisko masz przystanek autobusowy z ktorego dojedziesz do centrum miasta, ale dostaniesz też nieduże auto służbowe, powinno czekać na parkingu."
+
+Moon "Oh, czyli rozumiem, że wszystko już załatwione."
+
+Ronnie "Eek! Tak, twój dom jest gotowy do zamieszkania. Wszystkie dokumenty też tam są, razem z oprogramowaniem, które musisz wgrać żeby zmienić swoją tożsamość w systemie."
+
+Moon "W porządku. Zgaduję, że nie zobaczymy się prędko."
+
+NarrAtor "Ronnie smutnieje, ale wzrusza ramionami jakby chciała pokazać po sobie, że nic się nie dzieje."
+
+Ronnie "Uważaj na włamania, system ochrony powinien działać, ale przez to ile starszych osób mieszka w okolicy, złodzieje upatrzyli sobie ostatnio dzielnicę...{c}Mam nadzieję, że czasem zadzwonisz z raportem zamiast pisać."
+
+NarrAtor "Zgarniasz kartę dostępu do domu i uśmiechasz się do Ronnie."
+
+Moon "Na pewno. Nie można cały czas udawać pisarza."
+
+NarrAtor "Odwracasz się i idziesz do wyjścia."
+
+Ronnie	"A, jeszcze jedno, eek!"
+
+NarrAtor "Ronnie podrywa się z krzesła i opiera się o biurko."
+
+Ronnie "Jest tam jedna starsza kobieta. Na pewno cię odwiedzi, więc szybko zaktualizuj swój system. Podejrzewamy, że pracuje dla konkurencji."
+
+Moon "Dzięki, Ronnie. Do zobaczenia."
+
+Ronnie "Eek!"
