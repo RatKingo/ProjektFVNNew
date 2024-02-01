@@ -17,7 +17,7 @@ public class TestCharacters : MonoBehaviour
     {
         //Character Ronnie = CharacterManager.instance.CreateCharacter("Ronnie");
         //Character ronnie = CharacterManager.instance.CreateCharacter("Ronnie");
-        //Character Shark = CharacterManager.instance.CreateCharacter("Shark");
+        //Character Shark = CharacterManager.instance.CreateCharacter("Shark");\
         StartCoroutine(Test());
 
     }
@@ -27,11 +27,6 @@ public class TestCharacters : MonoBehaviour
         Character Ronnie = CreateCharacter("Ronnie as Generic");
 
         Ronnie.Show();
-
-        Ronnie.SetDialogueFont(tempFont);
-        Ronnie.SetNameFont(tempFont);
-
-        yield return Ronnie.Say("Mam dosc codziennie to samo, szarosc.");
 
         yield return null;
     }

@@ -14,8 +14,10 @@ public class CharacterManager : MonoBehaviour
 
         private const string CHARACTER_CASTING_ID = " as ";
         private const string  CHARACTER_NAME_ID = "<charname>";
-        private string characterRootPath => $"Characters/{CHARACTER_NAME_ID}";
-        private string characterPrefabPath => $"{characterRootPath}/Character - [{CHARACTER_NAME_ID}]";
+        public string characterRootPathFormat => $"Characters/{CHARACTER_NAME_ID}";
+        public string characterPrefabNameFormat => $"Character - [{CHARACTER_NAME_ID}]";
+        public string characterPrefabPathFormat => $"{characterRootPathFormat}/{characterPrefabNameFormat}";
+        
         [SerializeField] private RectTransform _characterpanel = null;
         public RectTransform characterPanel => _characterpanel;
 
@@ -75,11 +77,11 @@ public class CharacterManager : MonoBehaviour
 
         private GameObject GetPrefabForCharacter(string characterName)
         {
-            string prefabPath = FormatCharacterPath(characterPrefabPath, characterName);
+            string prefabPath = FormatCharacterPath(characterPrefabPathFormat, characterName);
             return Resources.Load<GameObject>(prefabPath);
         }
 
-        private string FormatCharacterPath(string path, string characterName) => path.Replace(CHARACTER_NAME_ID, characterName);
+        public string FormatCharacterPath(string path, string characterName) => path.Replace(CHARACTER_NAME_ID, characterName);
 
        private Character CreateCharacterFromInfo(CHARACTER_INFO info)
     {
