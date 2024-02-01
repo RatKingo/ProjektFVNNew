@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Character Configuration Asset
   m_EditorClassIdentifier: 
   characters:
-  - name: FishByte
-    alias: B
-    characterType: 1
+  - name: Shark
+    alias: S
+    characterType: 2
     nameColor: {r: 0.084549636, g: 0.7579635, b: 0.9433962, a: 1}
     dialogueColor: {r: 1, g: 1, b: 1, a: 1}
     nameFont: {fileID: 11400000, guid: 9420bff41eeb4af4c925eb60381cec24, type: 2}
@@ -32,5 +32,5 @@ MonoBehaviour:
     characterType: 1
     nameColor: {r: 0.9622642, g: 0.67774534, b: 0.104396604, a: 1}
     dialogueColor: {r: 1, g: 1, b: 1, a: 1}
-    nameFont: {fileID: 11400000, guid: e49879bbb1878ff4db50290d591e03fb, type: 2}
-    dialogueFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    nameFont: {fileID: 11400000, guid: 195e21771064d684da5e10acfaa39ea0, type: 2}
+    dialogueFont: {fileID: 11400000, guid: 71e5c35a9f778e840a3c34416bb65945, type: 2}

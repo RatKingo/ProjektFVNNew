@@ -11,47 +11,24 @@ namespace TESTING
 public class TestCharacters : MonoBehaviour
 {
     public TMP_FontAsset tempFont;
+
+    private Character CreateCharacter(string name) => CharacterManager.instance.CreateCharacter(name);
     void Start()
     {
-        
-        //Character Milka = CharacterManager.instance.CreateCharacter("Milka");
         //Character Ronnie = CharacterManager.instance.CreateCharacter("Ronnie");
+        //Character ronnie = CharacterManager.instance.CreateCharacter("Ronnie");
+        //Character Shark = CharacterManager.instance.CreateCharacter("Shark");\
         StartCoroutine(Test());
+
     }
 
     IEnumerator Test()
     {
-        Character FishByte = CharacterManager.instance.CreateCharacter("FishByte");
-        Character Milka = CharacterManager.instance.CreateCharacter("Milka");
+        Character Ronnie = CreateCharacter("Ronnie as Generic");
 
-        List<string> lines = new List<string>()
-        {
-            "\"Hello!\"",
-            "\"You look like a snack.\"",
-            "\"Tasty {a} One.\"",
-            "\"I could eat you up.\""
-        };
-        yield return FishByte.Say(lines);
+        Ronnie.Show();
 
-        FishByte.SetNameColor(Color.yellow);
-        FishByte.SetDialogueColor(Color.green);
-        FishByte.SetNameFont(tempFont);
-        FishByte.SetDialogueFont(tempFont);
-
-        yield return FishByte.Say(lines);
-
-        FishByte.ResetConfigurtaionData();
-
-        yield return FishByte.Say(lines);
-
-        lines = new List<string>()
-        {
-            "\"Want to taste our new blend? {c} It's called Blondie\"",
-            "\"It's selling real..{wa 1} well!\""
-        };
-        yield return Milka.Say(lines);
-
-        Debug.Log("Finished");
+        yield return null;
     }
 
     void Update()

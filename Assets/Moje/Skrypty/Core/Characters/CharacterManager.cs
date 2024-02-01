@@ -12,6 +12,15 @@ public class CharacterManager : MonoBehaviour
 
         private CharacterConfigSO config => DialougeSystem.instance.config.characterConfigurationAsset;
 
+        private const string CHARACTER_CASTING_ID = " as ";
+        private const string  CHARACTER_NAME_ID = "<charname>";
+        private string characterRootPath => $"Characters/{CHARACTER_NAME_ID}";
+        private string characterPrefabPath => $"{characterRootPath}/Character - [{CHARACTER_NAME_ID}]";
+        [SerializeField] private RectTransform _characterpanel = null;
+        public RectTransform characterPanel => _characterpanel;
+
+
+
         private void Awake()
         {
             instance = this;
@@ -53,37 +62,52 @@ public class CharacterManager : MonoBehaviour
         {
             CHARACTER_INFO result = new CHARACTER_INFO();
 
-            result.name = characterName;
+            string[] nameData = characterName.Split(CHARACTER_CASTING_ID, System.StringSplitOptions.RemoveEmptyEntries);
+            result.name = nameData[0];
+            result.castingName = nameData.Length > 1 ? nameData[1] : result.name;
 
-            result.config = config.GetConfig(characterName);
+            result.config = config.GetConfig(result.castingName);
+
+            result.prefab = GetPrefabForCharacter(result.castingName);
 
             return result;
         }
 
-        private Character CreateCharacterFromInfo(CHARACTER_INFO info)
+        private GameObject GetPrefabForCharacter(string characterName)
         {
-          CharacterConfigData config = info.config;
-            
-            switch(info.config.characterType)
-            {
-                case Character.CharacterType.Text:
-                    return new Character_Text(info.name, config);
-                
-                 case Character.CharacterType.Sprite:
-                 case Character.CharacterType.SpriteSheet:
-                    return new Character_Sprite(info.name, config);
-                
-                default:
-                    return null;
-            }
+            string prefabPath = FormatCharacterPath(characterPrefabPath, characterName);
+            return Resources.Load<GameObject>(prefabPath);
         }
+
+        private string FormatCharacterPath(string path, string characterName) => path.Replace(CHARACTER_NAME_ID, characterName);
+
+       private Character CreateCharacterFromInfo(CHARACTER_INFO info)
+    {
+    CharacterConfigData config = info.config;
+
+    switch (info.config.characterType)
+        {
+            case Character.CharacterType.Text:
+                return new Character_Text(info.name, config);
+
+            case Character.CharacterType.Sprite:
+            case Character.CharacterType.SpriteSheet:
+                return new Character_Sprite(info.name, config, info.prefab);
+
+            default:
+                return null;
+        }
+    }
 
 
         private class CHARACTER_INFO
         {
             public string name = "";
+            public string castingName = "";
 
             public CharacterConfigData config = null;
+
+            public GameObject prefab = null;
         }
     }
 }
