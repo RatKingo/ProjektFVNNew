@@ -4912,12 +4912,12 @@ PrefabInstance:
     - target: {fileID: 3629055588301492040, guid: 416f76210ce147e4393ddd68d3b239d6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -48
+      value: -47.999985
       objectReference: {fileID: 0}
     - target: {fileID: 7801736522605200640, guid: 416f76210ce147e4393ddd68d3b239d6,
         type: 3}
       propertyPath: m_Name
-      value: Character - [cow]
+      value: Character - [Cow]
       objectReference: {fileID: 0}
     - target: {fileID: 7801736522605200640, guid: 416f76210ce147e4393ddd68d3b239d6,
         type: 3}
@@ -5032,7 +5032,7 @@ PrefabInstance:
     - target: {fileID: 7801736523259703363, guid: 416f76210ce147e4393ddd68d3b239d6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -28
+      value: -28.000015
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 416f76210ce147e4393ddd68d3b239d6, type: 3}
