@@ -10,7 +10,7 @@ NarrAtor "Sięgasz do plecaka. Gdzieś na dnie, pod służbowym laptopem, znajdu
 
 Ronnie as ??? "Moon!" print_lp("Start Moving"), [wait]moveCharDemo(right), print_lp("Done Moving") 
 
-"Dobrze cię widzieć,{wa 0.5} eek!{a} Jak było na urlopie?"
+Ronnie "Dobrze cię widzieć,{wa 0.5} eek!{a} Jak było na urlopie?"
 
 NarrAtor "Ronnie, jak zwykle, widząc cię uśmiecha się. Pracuje tutaj krócej od ciebie, od pierwszego dnia dobrze się dogadujecie.{c}Stajesz przodem do niej, wyciągasz ostrożnie e-papierosa, wyłączasz go, po czym wrzucasz do plecaka. Odwzajemniasz uśmiech."
 
