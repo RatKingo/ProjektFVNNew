@@ -26,7 +26,7 @@ Ronnie "Wolę dłużej pracować tutaj niż siedzieć sama w czterech ścianach.
 
 NarrAtor "Po chwili namysłu wzrusza ramionami i wraca do pracy.{c}Nagle z korytarza słychać jak drzwi do jednego z pomieszczeń zostają otwarte silnym kopnięciem, przez co uderzają w ścianę, niemal wypadając z zawiasów.{c}Ronnie podskakuje na krześle, trącając ręką kubek z resztką kawy, która wylewa się na biurko."
 
-Szef "RONNA!" 
+Szef "RONNA!" print_lp("Start Moving"), [wait]moveCharDemo(right), print_lp("Done Moving")
 
 Ronnie "E{wa 0.3}-eek!"
 
