@@ -12,14 +12,18 @@ public class CommandDatabase
     public bool hasCommand(string commandName) => database.ContainsKey(commandName);
 
     public void AddCommand(string commandName, Delegate command)
+{
+    if (database.ContainsKey(commandName))
     {
-        if (!database.ContainsKey(commandName))
-        {
-            database.Add(commandName, command);
-        }
-        else
-            Debug.LogError($"Command already exists in the database ' {commandName}'");
+        // Handle the case where the command already exists
+        Debug.LogWarning($"Command '{commandName}' already exists. Overwriting...");
+        database[commandName] = command; // Optionally overwrite the existing command
     }
+    else
+    {
+        database.Add(commandName, command);
+    }
+}
 
     public Delegate GetCommand(string commandName)
     {
