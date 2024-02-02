@@ -18,6 +18,7 @@ public class CharacterManager : MonoBehaviour
         public string characterPrefabNameFormat => $"Character - [{CHARACTER_NAME_ID}]";
         public string characterPrefabPathFormat => $"{characterRootPathFormat}/{characterPrefabNameFormat}";
         
+        
         [SerializeField] private RectTransform _characterpanel = null;
         public RectTransform characterPanel => _characterpanel;
 

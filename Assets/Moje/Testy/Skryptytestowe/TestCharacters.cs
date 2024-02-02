@@ -15,9 +15,9 @@ public class TestCharacters : MonoBehaviour
     private Character CreateCharacter(string name) => CharacterManager.instance.CreateCharacter(name);
     void Start()
     {
-        //Character Ronnie = CharacterManager.instance.CreateCharacter("Ronnie");
+        Character Ronnie = CharacterManager.instance.CreateCharacter("Ronnie");
         //Character ronnie = CharacterManager.instance.CreateCharacter("Ronnie");
-        //Character Shark = CharacterManager.instance.CreateCharacter("Shark");\
+        //Character Shark = CharacterManager.instance.CreateCharacter("Shark");
         StartCoroutine(Test());
 
     }

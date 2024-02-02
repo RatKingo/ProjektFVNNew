@@ -112,7 +112,7 @@ namespace CHARACTERS
 
  public virtual void SetPosition(Vector2 position)
         { 
-            if (root == null);
+            if (root == null)
                 return;
 
         (Vector2 minAnchorTarget, Vector2 maxAnchorTarget) = ConvertUITargetPositionToRelativeCharacterAnchorTargets(position);
@@ -123,7 +123,7 @@ namespace CHARACTERS
 
         public virtual Coroutine MoveToPosition(Vector2 position, float speed = 2f, bool smooth = false) //chlop w 11:19 part1 do czegos sie odwoluje idk o chuj chodzi
         {
-            if (root == null);
+            if (root == null)
                 return null;
 
             if (isMoving)
