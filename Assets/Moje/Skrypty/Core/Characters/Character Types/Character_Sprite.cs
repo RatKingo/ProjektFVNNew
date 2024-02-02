@@ -20,7 +20,7 @@ namespace CHARACTERS
 
         public override bool isVisible
         { 
-            get { isRevealing || rootCG.alpha == 1; }
+            get { return isRevealing || rootCG.alpha == 1; }
             set { rootCG.alpha = value ? 1 : 0; }
         }
 

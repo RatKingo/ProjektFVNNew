@@ -72,7 +72,7 @@ public class CharacterManager : MonoBehaviour
 
             result.prefab = GetPrefabForCharacter(result.castingName);
 
-            result.rootCharacterFolder = FormatCharacterPath(characterRootPath, result.castingName);
+            result.rootCharacterFolder = FormatCharacterPath(characterRootPathFormat, result.castingName);
             //W tutorialu tutaj było characterRootPathFormat ale unity wywalało error, jeżeli coś nie będzie działać to trzeba tu pogrzebać
 
             return result;
