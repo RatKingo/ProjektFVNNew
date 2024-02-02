@@ -8,6 +8,8 @@ namespace CHARACTERS
 {
     public abstract class Character
     {
+        public const bool ENABLE_ON_START = true;
+
         public string name = "";
         public string displayName = "";
         public RectTransform root = null;
@@ -21,7 +23,7 @@ namespace CHARACTERS
         protected Coroutine co_revealing, co_hiding;
         public bool isRevealing => co_revealing != null;
         public bool isHiding => co_hiding != null;
-        public virtual bool isVisible => false;
+        public virtual bool isVisible { get; set; }
 
         public Character(string name, CharacterConfigData config, GameObject prefab)
         {

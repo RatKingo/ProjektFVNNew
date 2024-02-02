@@ -70,6 +70,9 @@ public class CharacterManager : MonoBehaviour
 
             result.prefab = GetPrefabForCharacter(result.castingName);
 
+            result.rootCharacterFolder = FormatCharacterPath(characterRootPath, result.castingName);
+            //W tutorialu tutaj było characterRootPathFormat ale unity wywalało error, jeżeli coś nie będzie działać to trzeba tu pogrzebać
+
             return result;
         }
 
@@ -79,31 +82,33 @@ public class CharacterManager : MonoBehaviour
             return Resources.Load<GameObject>(prefabPath);
         }
 
-        private string FormatCharacterPath(string path, string characterName) => path.Replace(CHARACTER_NAME_ID, characterName);
+        public string FormatCharacterPath(string path, string characterName) => path.Replace(CHARACTER_NAME_ID, characterName);
 
-       private Character CreateCharacterFromInfo(CHARACTER_INFO info)
-    {
-    CharacterConfigData config = info.config;
-
-    switch (info.config.characterType)
+        private Character CreateCharacterFromInfo(CHARACTER_INFO info)
         {
-            case Character.CharacterType.Text:
-                return new Character_Text(info.name, config);
+             CharacterConfigData config = info.config;
 
-            case Character.CharacterType.Sprite:
-            case Character.CharacterType.SpriteSheet:
-                return new Character_Sprite(info.name, config, info.prefab);
+            switch (info.config.characterType)
+            {
+                 case Character.CharacterType.Text:
+                     return new Character_Text(info.name, config);
 
-            default:
-                return null;
+                case Character.CharacterType.Sprite:
+                case Character.CharacterType.SpriteSheet:
+                    return new Character_Sprite(info.name, config, info.prefab, info.rootCharacterFolder);
+
+                default:
+                    return null;
+            }
         }
-    }
 
 
         private class CHARACTER_INFO
         {
             public string name = "";
             public string castingName = "";
+
+            public string rootCharacterFolder = "";
 
             public CharacterConfigData config = null;
 
