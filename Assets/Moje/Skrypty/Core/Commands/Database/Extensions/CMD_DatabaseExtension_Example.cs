@@ -82,8 +82,9 @@ public class CMD_DatabaseExtension_Example : CMD_DatabaseExtension
         bool left = direction.ToLower() == "left";
 
         //Get the variables I need. this would be defined somewhere else.
-        Transform character = GameObject.Find("Ronnie").transform;
+        Transform character = GameObject.Find("Szef").transform;
         float moveSpeed = 18;
+
 
         //Calculate the target position fo the image
         float targetX = left ? -8 : 8;
