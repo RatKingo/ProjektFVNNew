@@ -29,6 +29,8 @@ public class TestCharacters : MonoBehaviour
         Ronnie.Show();
 
         yield return null;
+
+           
     }
 
     void Update()
